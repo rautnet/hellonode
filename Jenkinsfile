@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("rautnet/Dockerhub@1306")
+        app = docker.build("rautnet/dockertask")
     }
 
     stage('Test image') {
